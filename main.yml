@@ -1,0 +1,29 @@
+pipeline
+{
+ agent any
+ stages
+{
+  stage("text")
+{
+ steps{
+     //test the project
+}
+}
+  stage("build")
+{
+ steps{
+     //build the project
+}
+}
+  stage("push")
+{
+ steps{
+     //push the project to repository
+}
+}
+  stage("deploy")
+{
+ steps{
+     //deploy to server
+}
+}
